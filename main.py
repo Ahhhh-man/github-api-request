@@ -44,7 +44,6 @@ class Github:
 
     def calc_percent_per_lang(self):
         dict_of_languages = self.calculate_repo_language()
-        print(dict_of_languages)
         total_characters = sum(dict_of_languages.values())
         dict_of_languages_percent = {}
 
